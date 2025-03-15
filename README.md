@@ -64,3 +64,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## User Story
+
+Users can login
+they can create multiple journals
+users have the option to use their own journal prompts or have prompts generated for them by Serena
+users can save journal entries
+users can delete journal entries
+users can edit past journal entries
+as entires accumulate, Serena will suggest journal prompts to users following up on records in past entries
+users have the option to accept or deny these prompts
+Serena will also learn from user-inputted prompts to generate future prompts
+all user data will be encrypted and local-first
+
